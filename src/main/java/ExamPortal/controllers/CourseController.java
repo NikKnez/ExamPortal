@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/course")
-@CrossOrigin(origins = "https://examportalonline.netlify.app/")
+@CrossOrigin(origins = "https://examportalonline.netlify.app")
 public class CourseController {
 
 	@Autowired

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/user")
-@CrossOrigin(origins = "https://examportalonline.netlify.app/")
+@CrossOrigin(origins = "https://examportalonline.netlify.app")
 public class UserController {
 
 	@Autowired
